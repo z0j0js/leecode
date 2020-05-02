@@ -3,6 +3,9 @@ package sise;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 两数之和
+ */
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
